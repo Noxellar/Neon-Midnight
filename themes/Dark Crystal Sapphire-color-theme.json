@@ -80,6 +80,15 @@
 			}
 		},
 		{
+			"name": "Function Call Arguments",
+			"scope": [
+				"meta.function-call.arguments"
+			],
+			"settings": {
+				"foreground": "#FFFFFF",
+			}
+		},
+		{
 			"name": "Strings",
 			"scope": [
 				"string",
@@ -191,6 +200,9 @@
 				"meta.parens",
 				"meta.group",
 				"meta.brackets",
+				"punctuation.definition.parameters",
+				"punctuation.definition.arguments",
+				"punctuation.definition.inheritance",
 			],
 			"settings": {
 				"foreground": "#FFFFFF",
