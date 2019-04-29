@@ -1,0 +1,201 @@
+// Crystal Clear Sapphire
+/*
+	* All syntax colours are the hexes of one of the special 140 HTML colours which have names
+	* They can be found at https://www.w3schools.com/colors/colors_names.asp
+	* Meanwhile, the workspace colours are shades of Cornflower Blue (one of the special names colours)
+	* I used https://www.hexcolortool.com/ to create the tints of cornflower blue
+	* (and maybe the tints of the tints)
+*/
+{
+	"name": "Crystal Clear Sapphire",
+	"type": "light",
+	"colors": {
+		"editor.background": "#6495ED",
+		"editor.foreground": "#eeffff",
+		"editor.selectionHighlightBackground": "#00ced144",
+		"editor.findMatchHighlightBackground": "#00ced144",
+		"editor.hoverHighlightBackground": "#00ced144",
+		"editor.lineHighlightBorder": "#ffffff70",
+		"editorGroupHeader.tabsBackground": "#31228841",
+		"tab.activeBackground": "#31228811",
+		"tab.inactiveBackground": "#3122884d",
+		"sideBar.foreground": "#FFFFFF",
+		"sideBar.background": "#7EAFFF",
+		"list.activeSelectionForeground": "#FFFFFF",
+		"list.activeSelectionBackground": "#1E90FF",
+		"list.inactiveSelectionBackground": "#1E90FF",
+		"list.hoverForeground": "#FFFFFF",
+		"list.hoverBackground": "#1E90FF",
+		"activityBar.background": "#97C8FF",
+		"activityBarBadge.background": "#007acc",
+		"sideBarSectionHeader.foreground": "#FFFFFF",
+		"sideBarTitle.foreground": "#bbbbbb",
+		"input.background": "#97C8FF",
+	},
+	"tokenColors": [
+		{
+			"name": "Keywords",
+			"scope": [
+				"keyword.control",
+			],
+			"settings": {
+				"foreground": "#00008B",
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable",
+				"storage",
+			],
+			"settings": {
+				"foreground": "#0000FF",
+			}
+		},
+		{
+			"name": "Function Brackets",
+			"scope": [
+				"meta.function.expression",
+			],
+			"settings": {
+				"foreground": "#FFFFFF",
+			}
+		},
+		{
+			"name": "Classes & Functions",
+			"scope": [
+				"meta.function",
+				"meta.class",
+			],
+			"settings": {
+				"foreground": "#FFFF00",
+			}
+		},
+		{
+			"name": "Function Call",
+			"scope": [
+				"meta.function-call",
+			],
+			"settings": {
+				"foreground": "#00008B",
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string",
+				"punctuation.definition.string.begin",
+				"punctuation.definition.string.end",
+			],
+			"settings": {
+				"foreground": "#006400",
+			}
+		},
+		{
+			"name": "Numbers",
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#4169e1",
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#2f4f4f",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Codetags",
+			"scope": [
+				"keyword.codetag.notation"
+			],
+			"settings": {
+				"foreground": "#00008B",
+			}
+		},
+		{
+			"name": "Markup",
+			"scope": [
+				"markup"
+			],
+			"settings": {
+				"foreground": "#FFFFFF",
+			}
+		},
+		{
+			"name": "HTML Tags",
+			"scope": [
+				"meta.tag",
+			],
+			"settings": {
+				"foreground": "#00008B",
+			}
+		},
+		{
+			"name": "HTML Attribute",
+			"scope": [
+				"entity.other.attribute-name.html",
+			],
+			"settings": {
+				"foreground": "#FA8072",
+			}
+		},
+		{
+			"name": "CSS Selector",
+			"scope": [
+				"meta.selector"
+			],
+			"settings": {
+				"foreground": "#800080",
+			}
+		},
+		{
+			"name": "CSS Attribute",
+			"scope": [
+				"meta.property-name"
+			],
+			"settings": {
+				"foreground": "#191970",
+			}
+		},
+		{
+			"name": "CSS Attribute Value",
+			"scope": [
+				"meta.property-value"
+			],
+			"settings": {
+				"foreground": "#FFFF00",
+			}
+		},
+		{
+			"name": "Links",
+			"scope": [
+				"markup.underline.link",
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": [
+				"keyword.operator",
+				"meta.braces",
+				"meta.block",
+				"meta.parens",
+				"meta.group",
+				"meta.brackets",
+			],
+			"settings": {
+				"foreground": "#FFFFFF",
+			}
+		},
+	]
+}

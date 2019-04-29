@@ -1,0 +1,29 @@
+{
+    "name": "crystal-sapphires",
+    "displayName": "Crystal Sapphires Theme",
+    "description": "A VSCode theme made from lots of blue ...",
+    "version": "0.0.1",
+    "icon": "./images/icon.png",
+    "repository": "https://github.com/harrydebest1/Crystal-Sapphires.git",
+    "publisher": "HDB1",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Crystal Sapphire",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark Crystal Sapphire-color-theme.json"
+            },
+            {
+                "label": "Crystal Clear Sapphire",
+                "uiTheme": "vs",
+                "path": "./themes/Crystal Clear Sapphire-color-theme.json"
+            }
+        ]
+    }
+}
