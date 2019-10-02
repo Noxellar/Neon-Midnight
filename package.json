@@ -4,7 +4,7 @@
     "description": "A VSCode theme made from lots of blue ...",
     "icon": "images/icon.png",
     "version": "0.0"
-    "repository": "https://github.com/harrydebest1/Crystal-Sapphires.git",
+    "repository": "https://github.com/xenoxriar/Crystal-Sapphires.git",
     "publisher": "xenoxriar",
     "engines": {
         "vscode": "^1.33.0"
