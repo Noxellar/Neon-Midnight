@@ -1,6 +1,6 @@
 // Crystal Clear Sapphire
 /*
-	* All syntax colours are the hexes of one of the special 140 HTML colours which have names
+	* All syntax colours are the hexes of one of the special 140 HTML colours with names
 	* They can be found at https://www.w3schools.com/colors/colors_names.asp
 	* Meanwhile, the workspace colours are shades of Cornflower Blue (one of the special names colours)
 	* I used https://www.hexcolortool.com/ to create the tints of cornflower blue
@@ -17,6 +17,7 @@
 		"editor.hoverHighlightBackground": "#00ced144",
 		"editor.lineHighlightBorder": "#ffffff70",
 		"editorGroupHeader.tabsBackground": "#31228841",
+		"peekViewR"
 		"tab.activeBackground": "#31228811",
 		"tab.inactiveBackground": "#3122884d",
 		"sideBar.foreground": "#FFFFFF",
@@ -40,16 +41,6 @@
 			],
 			"settings": {
 				"foreground": "#00008B",
-			}
-		},
-		{
-			"name": "Variables",
-			"scope": [
-				"variable",
-				"storage",
-			],
-			"settings": {
-				"foreground": "#0000FF",
 			}
 		},
 		{

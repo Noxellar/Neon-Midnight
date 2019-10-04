@@ -1,6 +1,6 @@
 // Dark Crystal Sapphire
 /*
-	* All syntax colours are the hexes of one of the special 140 HTML colours which have names
+	* All syntax colours are the hexes of one of the special 140 HTML colours with names
 	* They can be found at https://www.w3schools.com/colors/colors_names.asp
 	* Meanwhile, the workspace colours are shades of Cornflower Blue (one of the special names colours)
 	* I used https://www.hexcolortool.com/ to create the shades of cornflower blue
@@ -42,16 +42,6 @@
 			}
 		},
 		{
-			"name": "Variables",
-			"scope": [
-				"variable",
-				"storage",
-			],
-			"settings": {
-				"foreground": "#6495ED",
-			}
-		},
-		{
 			"name": "Function Brackets",
 			"scope": [
 				"meta.function.expression",
@@ -76,7 +66,7 @@
 				"meta.function-call",
 			],
 			"settings": {
-				"foreground": "#6495ED",
+				"foreground": "#00BFFF",
 			}
 		},
 		{
@@ -115,7 +105,7 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"foreground": "#80808093",
+				"foreground": "#778899",
 				"fontStyle": "italic"
 			}
 		},
