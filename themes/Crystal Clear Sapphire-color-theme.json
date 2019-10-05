@@ -11,13 +11,15 @@
 	"type": "light",
 	"colors": {
 		"editor.background": "#6495ED",
-		"editor.foreground": "#eeffff",
-		"editor.selectionHighlightBackground": "#00ced144",
-		"editor.findMatchHighlightBackground": "#00ced144",
-		"editor.hoverHighlightBackground": "#00ced144",
+		"editor.foreground": "#EEFFFF",
+		"editor.selectionHighlightBackground": "#00CED144",
+		"editor.findMatchHighlightBackground": "#00CED144",
+		"editor.hoverHighlightBackground": "#00CED144",
 		"editor.lineHighlightBorder": "#ffffff70",
 		"editorGroupHeader.tabsBackground": "#31228841",
-		"peekViewR"
+		"editorWidget.background": "#6495ED",
+		"editorSuggestWidget.selectedBackground": "#1E90FF",
+		"editorMarkerNavigation.background": "#6495ED",
 		"tab.activeBackground": "#31228811",
 		"tab.inactiveBackground": "#3122884d",
 		"sideBar.foreground": "#FFFFFF",
@@ -32,6 +34,7 @@
 		"sideBarSectionHeader.foreground": "#FFFFFF",
 		"sideBarTitle.foreground": "#bbbbbb",
 		"input.background": "#97C8FF",
+		"notifications.background": "#1E90FF",
 	},
 	"tokenColors": [
 		{
@@ -41,6 +44,16 @@
 			],
 			"settings": {
 				"foreground": "#00008B",
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable",
+				"storage"
+			],
+			"settings": {
+				"foreground": "#191970",
 			}
 		},
 		{

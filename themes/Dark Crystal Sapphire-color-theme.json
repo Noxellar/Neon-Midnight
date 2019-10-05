@@ -11,11 +11,14 @@
 	"type": "dark",
 	"colors": {
 		"editor.background": "#000021",
-		"editor.foreground": "#eeffff",
-		"editor.selectionHighlightBackground": "#00ced144",
-		"editor.findMatchHighlightBackground": "#00ced144",
-		"editor.hoverHighlightBackground": "#00ced144",
+		"editor.foreground": "#EEFFFF",
+		"editor.selectionHighlightBackground": "#00CED144",
+		"editor.findMatchHighlightBackground": "#00CED144",
+		"editor.hoverHighlightBackground": "#00CED144",
 		"editorGroupHeader.tabsBackground": "#31228841",
+		"editorWidget.background": "#00002E",
+		"editorSuggestWidget.selectedBackground": "#1A1A48",
+		"editorMarkerNavigation.background": "#00002E",
 		"tab.activeBackground": "#3122884d",
 		"tab.inactiveBackground": "#31228811",
 		"sideBar.foreground": "#318CE7",
@@ -30,6 +33,7 @@
 		"sideBarSectionHeader.foreground": "#FFFFFF",
 		"sideBarTitle.foreground": "#bbbbbb",
 		"input.background": "#00004A",
+		"notifications.background": "#00002E",
 	},
 	"tokenColors": [
 		{
@@ -39,6 +43,16 @@
 			],
 			"settings": {
 				"foreground": "#1E90FF",
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable",
+				"storage"
+			],
+			"settings": {
+				"foreground": "#6494edc9",
 			}
 		},
 		{
@@ -105,7 +119,7 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"foreground": "#778899",
+				"foreground": "#696969",
 				"fontStyle": "italic"
 			}
 		},
