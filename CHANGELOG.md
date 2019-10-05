@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.0.1] - 2019-10-5
+## [1.0.2] - 2019-10-5
 ### Added
 - Variable scopes in dark and light theme
 - Colour for notifcations in dark and light theme
