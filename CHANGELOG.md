@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.1.0] - 2019-01-12
+### Added
+- Activity Bar active indicator
+- Activity Bar active background
+
 ## [1.0.2] - 2019-10-5
 ### Added
 - Variable scopes in dark and light theme

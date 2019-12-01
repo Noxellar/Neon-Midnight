@@ -1,11 +1,18 @@
 {
     "name": "crystal-sapphires",
     "displayName": "Crystal Sapphires",
-    "description": "A VSCode theme made from lots of blue ...",
+    "description": "A Visual Studio Code theme made from lots of blue ...",
     "icon": "images/icon.png",
     "version": "1.0.2",
     "repository": "https://github.com/xenoxriar/Crystal-Sapphires",
     "publisher": "xenoxriar",
+    "license": "MIT",
+    "keywords": [
+        "sapphires",
+        "sapphire",
+        "theme",
+        "themes",
+    ],
     "engines": {
         "vscode": "^1.33.0"
     },
