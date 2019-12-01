@@ -22,4 +22,4 @@
 - Absence of changelogginess in the changelog
 
 ## [1.0.0] - 2019-10-2
-### [Initial Release]
+- [Initial Release]
