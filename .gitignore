@@ -1,3 +1,4 @@
 node_modules
 *.vsix
+node_modules
 TODO.md
