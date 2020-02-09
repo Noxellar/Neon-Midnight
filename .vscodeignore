@@ -3,4 +3,5 @@
 .gitignore
 vsc-extension-quickstart.md
 *.vsix
+node_modules
 TODO.md
