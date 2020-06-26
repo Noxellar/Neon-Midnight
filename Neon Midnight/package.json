@@ -1,0 +1,29 @@
+{
+	"name": "neon-midnight",
+	"displayName": "Neon Midnight",
+	"description": "A pretty, blue theme that I made for myself ... ",
+	"icon": "images/icon.svg",
+	"version": "0.0.1",
+	"repository": "https://github.com/Noxellar/Neon-Midnight",
+	"publisher": "Noxellar",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.46.0"
+	},
+	"categories": [
+		"Themes",
+		"Dark Theme",
+		"Neon",
+		"Midnight"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Neon Midnight",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Crystal Sapphires-color-theme.json"
+			},
+			{}
+		]
+	}
+}

@@ -1,7 +1,8 @@
 {
-	"name": "Dark Crystal Sapphires",
+	"name": "Neon Midnight",
 	"type": "dark",
 	"colors": {
+		// EDITOR SETTINGS
 		"editor.background": "#000021",
 		"editor.foreground": "#EEFFFF",
 		"editor.selectionHighlightBackground": "#00CED144",
@@ -11,27 +12,33 @@
 		"editorWidget.background": "#00002E",
 		"editorSuggestWidget.selectedBackground": "#1A1A48",
 		"editorMarkerNavigation.background": "#00002E",
+		// EDITOR TAB SETTINGS
 		"tab.activeBackground": "#3122884d",
 		"tab.inactiveBackground": "#31228811",
+		// SIDEBAR SETTINGS
 		"sideBar.foreground": "#318CE7",
 		"sideBar.background": "#00002E",
+		"sideBarSectionHeader.foreground": "#FFFFFF",
+		"sideBarTitle.foreground": "#FFFFFF",
+		// SOMETHING
 		"list.activeSelectionForeground": "#FFFFFF",
 		"list.activeSelectionBackground": "#1A1A48",
 		"list.inactiveSelectionBackground": "#1A1A48",
 		"list.hoverForeground": "#FFFFFF",
 		"list.hoverBackground": "#1A1A48",
+		// ACTIVITY BAR SETTINGS
 		"activityBar.background": "#00004A",
 		"activityBar.activeBorder": "#318CE7",
 		"activityBar.activeBackground": "#00CED144",
 		"activityBarBadge.background": "#007ACC",
-		"sideBarSectionHeader.foreground": "#FFFFFF",
-		"sideBarTitle.foreground": "#FFFFFF",
+		// JSLK
 		"input.background": "#00004A",
+		// JSDL
 		"notifications.background": "#00002E",
 	},
 	"tokenColors": [
 		{
-			/*CHANGED*/
+			// Dim Gray
 			"name": "Comment",
 			"scope": [
 				"comment",
@@ -43,37 +50,39 @@
 			}
 		},
 		{
-			/*CHANGED*/
+			// Cornflower Blue
 			"name": "Variables",
 			"scope": [
 				"variable",
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#6494ED"
+				"foreground": "#6495ED"
 			}
 		},
 		{
+			// White
 			"name": "Colors",
 			"scope": [
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
+			// Red
 			"name": "Invalid",
 			"scope": [
 				"invalid",
 				"invalid.illegal"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#FF0000"
 			}
 		},
 		{
-			/*CHANGED*/
+			// Medium Slate Blue
 			"name": "Keyword, Storage",
 			"scope": [
 				"keyword",
@@ -81,19 +90,23 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#FF6347"
+				"foreground": "#7B68EE"
 			}
 		},
 		{
+			// White
 			"name": "Brackets",
 			"scope": [
 				"punctuation.definition.arguments",
+				"punctuation.definition.parameters.begin",
+				"punctuation.parenthesis"
 			],
 			"settings": {
 				"foreground": "#FFFFFF",
 			}
 		},
 		{
+			// Dark Turquoise
 			"name": "HTML Brackets",
 			"scope": [
 				"punctuation.definition.tag.html",
@@ -104,12 +117,11 @@
 				"foreground": "#00CED1",
 			}
 		},
-		{ /*CHANGED*/
+		{ // Tomato
 			"name": "Operator, Misc",
 			"scope": [
 				"keyword.control",
 				"constant.other.color",
-				"punctuation",
 				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
@@ -118,11 +130,11 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#98FB98"
+				"foreground": "#FF6347"
 			}
 		},
 		{
-			/*CHANGED*/
+			// Cornflower Blue
 			"name": "Tag",
 			"scope": [
 				"entity.name.tag",
@@ -134,7 +146,7 @@
 			}
 		},
 		{
-			/*CHANGED*/
+			// Deep Sky Blue
 			"name": "Function, Special Method",
 			"scope": [
 				"entity.name.function",
@@ -148,7 +160,7 @@
 			}
 		},
 		{
-			/*CHANGED*/
+			// Aqua
 			"name": "Block Level Variables",
 			"scope": [
 				"meta.block variable.other"
@@ -158,7 +170,7 @@
 			}
 		},
 		{
-			/*CHANGED*/
+			// Tomato
 			"name": "Other Variable, String Link",
 			"scope": [
 				"support.other.variable",
@@ -169,7 +181,7 @@
 			}
 		},
 		{
-			/*CHANGED*/
+			// Powder Blue
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
 				"constant.numeric",
@@ -186,7 +198,7 @@
 			}
 		},
 		{
-			/*CHANGED*/
+			// Lime Green
 			"name": "String, Symbols, Inherited Class, Markup Heading",
 			"scope": [
 				"string",
@@ -202,7 +214,7 @@
 			}
 		},
 		{
-			/*CHANGED*/
+			// Pale Golden Rod
 			"name": "Class, Support",
 			"scope": [
 				"entity.name",
@@ -219,15 +231,17 @@
 			}
 		},
 		{
+			// Dark Turquoise
 			"name": "Entity Types",
 			"scope": [
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#00CED1"
 			}
 		},
 		{
+			// Dark Turquoise
 			"name": "CSS Class and Support",
 			"scope": [
 				"source.css support.type.property-name",
@@ -238,10 +252,11 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#00CED1"
 			}
 		},
 		{
+			// Red
 			"name": "Sub-methods",
 			"scope": [
 				"entity.name.module.js",
@@ -249,7 +264,7 @@
 				"variable.other.class.js"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#FF0000"
 			}
 		},
 		{
