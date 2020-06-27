@@ -34,7 +34,7 @@
 		// JSLK
 		"input.background": "#00004A",
 		// JSDL
-		"notifications.background": "#00002E",
+		"notifications.background": "#00002E"
 	},
 	"tokenColors": [
 		{
@@ -71,18 +71,18 @@
 			}
 		},
 		{
-			// Red
+			// Tomato AOIFASLK;DFJLAS;DJFLK;ASJDFLKJSALDF
 			"name": "Invalid",
 			"scope": [
 				"invalid",
 				"invalid.illegal"
 			],
 			"settings": {
-				"foreground": "#FF0000"
+				"foreground": "#FF6347"
 			}
 		},
 		{
-			// Medium Slate Blue
+			// Lemon Chiffon
 			"name": "Keyword, Storage",
 			"scope": [
 				"keyword",
@@ -90,7 +90,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#7B68EE"
+				"foreground": "#FFFACD"
 			}
 		},
 		{
@@ -102,7 +102,7 @@
 				"punctuation.parenthesis"
 			],
 			"settings": {
-				"foreground": "#FFFFFF",
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
@@ -111,10 +111,10 @@
 			"scope": [
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
+				"punctuation.definition.tag.end.html"
 			],
 			"settings": {
-				"foreground": "#00CED1",
+				"foreground": "#00CED1"
 			}
 		},
 		{ // Tomato
@@ -181,7 +181,7 @@
 			}
 		},
 		{
-			// Powder Blue
+			// Steel Blue
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
 				"constant.numeric",
@@ -194,7 +194,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#B0E0E6"
+				"foreground": "#4682B4"
 			}
 		},
 		{
@@ -214,7 +214,7 @@
 			}
 		},
 		{
-			// Pale Golden Rod
+			// Medium Sea Green
 			"name": "Class, Support",
 			"scope": [
 				"entity.name",
@@ -227,7 +227,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#EEE8AA"
+				"foreground": "#3CB371"
 			}
 		},
 		{
