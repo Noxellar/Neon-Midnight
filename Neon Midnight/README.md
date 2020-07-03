@@ -1,3 +1,0 @@
-# Neon Midnight
-
-Might add something into this later ... 

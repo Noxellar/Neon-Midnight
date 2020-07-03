@@ -1,0 +1,41 @@
+{
+	"name": "crystal-sapphires",
+	"displayName": "Crystal Sapphires",
+	"description": "A Visual Studio Code theme made from lots of blue ...",
+	"icon": "images/icon.png",
+	"version": "1.1.0",
+	"repository": "https://github.com/Noxellar/Crystal-Sapphires",
+	"publisher": "Noxellar",
+	"license": "MIT",
+	"keywords": [
+		"sapphires",
+		"sapphire",
+		"theme",
+		"themes"
+	],
+	"engines": {
+		"vscode": "^1.33.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dark Crystal Sapphire",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Dark Crystal Sapphire-color-theme.json"
+			},
+			{
+				"label": "Crystal Clear Sapphire",
+				"uiTheme": "vs",
+				"path": "./themes/Crystal Clear Sapphire-color-theme.json"
+			}
+		]
+	},
+	"dependencies": {
+		"generator-code": "^1.2.16",
+		"vsce": "^1.77.0",
+		"yo": "^3.1.1"
+	}
+}

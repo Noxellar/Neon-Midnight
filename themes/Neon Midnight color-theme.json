@@ -541,16 +541,18 @@
 			}
 		},
 		{
+			// Aquamarine
 			"name": "Markup - Italic",
 			"scope": [
 				"markup.italic"
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#f07178"
+				"foreground": "#7FFFD4"
 			}
 		},
 		{
+			// Light Coral
 			"name": "Markup - Bold",
 			"scope": [
 				"markup.bold",
@@ -558,10 +560,11 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#f07178"
+				"foreground": "#F08080"
 			}
 		},
 		{
+			// Light Coral
 			"name": "Markup - Bold-Italic",
 			"scope": [
 				"markup.bold markup.italic",
@@ -573,7 +576,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#f07178"
+				"foreground": "#F08080"
 			}
 		},
 		{
@@ -583,7 +586,7 @@
 			],
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#F78C6C"
+				"foreground": "#800080"
 			}
 		},
 		{
@@ -615,12 +618,13 @@
 			}
 		},
 		{
+			// Aqua
 			"name": "Markdown - Link Description",
 			"scope": [
 				"string.other.link.description.title.markdown"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#00FFFF"
 			}
 		},
 		{
@@ -638,7 +642,7 @@
 				"markup.raw.block"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#00FA9A"
 			}
 		},
 		{

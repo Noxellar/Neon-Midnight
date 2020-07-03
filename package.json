@@ -1,20 +1,20 @@
 {
-	"name": "crystal-sapphires",
-	"displayName": "Crystal Sapphires",
-	"description": "A Visual Studio Code theme made from lots of blue ...",
+	"name": "neon-midnight",
+	"displayName": "Neon Midnight",
+	"description": "The brand new, revamped version of Crystal Sapphires",
 	"icon": "images/icon.png",
 	"version": "1.1.0",
-	"repository": "https://github.com/Noxellar/Crystal-Sapphires",
+	"repository": "https://github.com/Noxellar/Neon-Midnight",
 	"publisher": "Noxellar",
 	"license": "MIT",
 	"keywords": [
-		"sapphires",
-		"sapphire",
+		"neon",
+		"midnight",
 		"theme",
 		"themes"
 	],
 	"engines": {
-		"vscode": "^1.33.0"
+		"vscode": "^1.46.0"
 	},
 	"categories": [
 		"Themes"
@@ -22,20 +22,15 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Dark Crystal Sapphire",
+				"label": "Neon Midnight",
 				"uiTheme": "vs-dark",
-				"path": "./themes/Dark Crystal Sapphire-color-theme.json"
+				"path": "./themes/Neon Midnight color-theme.json"
 			},
 			{
-				"label": "Crystal Clear Sapphire",
+				"label": "Neon Day",
 				"uiTheme": "vs",
-				"path": "./themes/Crystal Clear Sapphire-color-theme.json"
+				"path": "./themes/[DEPRECATED] Crystal Clear Sapphires color-theme.json"
 			}
 		]
-	},
-	"dependencies": {
-		"generator-code": "^1.2.16",
-		"vsce": "^1.77.0",
-		"yo": "^3.1.1"
 	}
 }
