@@ -26,11 +26,6 @@
 				"uiTheme": "vs-dark",
 				"path": "./themes/Neon Midnight color-theme.json"
 			},
-			{
-				"label": "Neon Day",
-				"uiTheme": "vs",
-				"path": "./themes/[DEPRECATED] Crystal Clear Sapphires color-theme.json"
-			}
 		]
 	}
 }
