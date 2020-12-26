@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.1.0] - 2020-12-16
+### Changed
+- Major syntax colours especially for strong-typed languages for better readability
+
+## [2.0.0] - 2020-07-03
+- [Initial Release of Neon Midnight]
+### Changed
+- Unknown but probably some syntax colours
+
 ## [1.1.0] - 2019-01-12
 ### Added
 - Activity Bar active indicator

@@ -1,6 +1,8 @@
+.gitignore
 .vscode/**
 .vscode-test/**
-.gitignore
+node_modules/**
+Test Files/**
+TODO.md
 vsc-extension-quickstart.md
 *.vsix
-TODO.md
