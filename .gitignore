@@ -1,3 +1,4 @@
 .vscodeignore
 *.vsix
 TODO.md
+node_modules
